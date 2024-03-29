@@ -42,5 +42,7 @@ let g:netrw_winsize=30      " opening file manager in limited window size
 "     Colorscheme 
 " ===================
 set background=dark         " dark background
+" set termguicolors           " helps terminal vim to load colorscheme (vim 8 onwards)
+" set t_Co=256                " helps terminal vim to load colorscheme
 colorscheme gruvbox         " custom colorscheme
 
