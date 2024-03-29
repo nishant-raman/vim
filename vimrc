@@ -23,7 +23,7 @@ set hls                 " highlight search
 ino kj <esc>
 vno kj <esc>
 cno kj <C-C>
-let &t_SI = "\e[1 q"        " change cursor look to blinking block in insert mode
+let &t_SI = "\e[5 q"        " change cursor look to blinking block in insert mode
 let &t_EI = "\e[2 q"        " change cursor look to stead block in normal mode
 filetype plugin indent on   " filteype detection for syntax indent or based on plugin
 set ts=4                    " tab is 4 chars longs
