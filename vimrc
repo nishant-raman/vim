@@ -12,7 +12,7 @@ set gfn=Monospace\ 13   " set font type and size in gvim
 " set relativenumber    " set relative line numbering
 set backspace=indent,eol,start  " enable backspace in diff conditions in insert
 set hid                 " opening new file will hide prev file instead of closing
-" set ignorecase        " case insensitive pattern
+set ignorecase        " case insensitive pattern
 set smartcase           " case insensitive if pattern has lower case
 set is                  " while typing shows where pattern is matched
 set mouse=a             " enable mouse use in all modes
